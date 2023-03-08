@@ -6,7 +6,7 @@
 <body>
 	<h1>Utes Football Team</h1>
 	<h2>Add an Athlete</h2>
-	<form method="post" action="addathlete.php">
+	<form method="post" action="addathlete.php" onsubmit="window.location.href='roster.php';'>
 		<label for="firstname">First Name:</label>
 		<input type="text" id="firstname" name="firstname" required><br><br>
 		<label for="lastname">Last Name:</label>
@@ -17,7 +17,6 @@
 			<option value="Quarterback">Quarterback</option>
 			<option value="Running Back">Running Back</option>
 			<option value="Wide Receiver">Wide Receiver</option>
-			<option value="Tight End">Tight End</option>
 			<option value="Offensive Lineman">Offensive Lineman</option>
 			<option value="Defensive Lineman">Defensive Lineman</option>
 			<option value="Linebacker">Linebacker</option>
