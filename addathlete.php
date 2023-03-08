@@ -30,7 +30,7 @@
 		<input type="number" id="weight" name="weight" required><br><br>
 		<label for="birthdate">Birthdate:</label>
 		<input type="date" id="birthdate" name="birthdate" required><br><br>
-		<input type="submit" value="Add Athlete">
+		<input type="submit" value="Add Athlete" onclick="location.href='roster.php';">
 	</form>
 </body>
 </html>
